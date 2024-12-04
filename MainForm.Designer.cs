@@ -373,7 +373,7 @@ partial class MainForm
         groupBox4.Controls.Add(PolitenessLevel_ComboBox);
         groupBox4.Location = new Point(547, 156);
         groupBox4.Name = "groupBox4";
-        groupBox4.Size = new Size(265, 98);
+        groupBox4.Size = new Size(265, 150);
         groupBox4.TabIndex = 31;
         groupBox4.TabStop = false;
         groupBox4.Text = "Interaction Style";
