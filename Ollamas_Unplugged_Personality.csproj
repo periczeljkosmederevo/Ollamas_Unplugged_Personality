@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>ТМ 128.ico</ApplicationIcon>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Authors>Perić Željko, periczeljkosmederevo@yahoo.com</Authors>
+    <Copyright>2024</Copyright>
+    <Product>Ollamas Unpluged - Personality</Product>
+    <Title>Ollamas Unpluged - Personality</Title>
+    <Description>Ollamas Unplugged - Personality is a app focused on customizable AI-driven personality configurations and conversational behavior for the Ollama model, enabling dynamic responses and user-driven settings.</Description>
+    <PackageIcon>ТМ 128.png</PackageIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ТМ 128.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\ТМ 128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
