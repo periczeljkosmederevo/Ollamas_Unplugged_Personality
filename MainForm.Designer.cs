@@ -564,7 +564,7 @@ partial class MainForm
         Icon = (Icon)resources.GetObject("$this.Icon");
         MaximumSize = new Size(1600, 900);
         Name = "MainForm";
-        Text = "Ollamas Unplugged - Personality";
+        Text = "Ollama Unplugged with Personality";
         groupBox1.ResumeLayout(false);
         groupBox1.PerformLayout();
         groupBox2.ResumeLayout(false);
